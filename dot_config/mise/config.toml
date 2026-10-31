@@ -1,17 +1,20 @@
 [tools]
 bun = "latest"
-deno = "latest"
 go = "latest"
 node = "latest"
 "npm:@anthropic-ai/claude-code" = "latest"
-"npm:@google/gemini-cli" = "latest"
 "npm:@openai/codex" = "latest"
-"npm:@qwen-code/qwen-code" = "latest"
+"npm:cf" = "latest"
+"npm:npm-check-updates" = "latest"
 "npm:pnpm" = "latest"
-"npm:serve" = "latest"
+"npm:skills" = "latest"
 "npm:tsx" = "latest"
+"npm:ui-ux-pro-max-cli" = "latest"
+"npm:vite" = "latest"
+oh-my-pi = { version = "latest", rename_exe = "omp" }
 python = "latest"
 ruby = "latest"
+rust = "latest"
 uv = "latest"
 
 [settings]

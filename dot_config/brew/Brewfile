@@ -1,0 +1,283 @@
+tap "jundot/omlx", "https://github.com/jundot/omlx"
+tap "steipete/tap"
+# Run your GitHub Actions locally
+brew "act"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# AI pair programming in your terminal
+brew "aider"
+# Fast, lightweight CLI for App Store Connect
+brew "asc"
+# Automatically restart SSH sessions and tunnels
+brew "autossh"
+# Bash Automated Testing System
+brew "bats-core"
+# Double-entry accounting tool that works on plain text files
+brew "beancount"
+# Decentralized, peer to peer payment network
+brew "bitcoin"
+# Collection of portable C++ source libraries
+brew "boost"
+# Create and view interactive cheat sheets for *nix commands
+brew "cheat"
+# Manage your dotfiles across multiple diverse machines, securely
+brew "chezmoi"
+# CLI tool for Cloudflare Workers
+brew "cloudflare-wrangler"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
+# Linux virtual machines
+brew "lima"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
+# Create and run Linux containers using lightweight virtual machines
+brew "container"
+# TIFF library and utilities
+brew "libtiff"
+# Pack, ship and run any application as a lightweight container
+brew "docker"
+# Isolated development environments using Docker
+brew "docker-compose"
+# Command-line tool to interact with exercism.io
+brew "exercism"
+# Perl lib for reading and writing EXIF metadata
+brew "exiftool"
+# Web interface for the double-entry bookkeeping software Beancount
+brew "fava"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Installer for the general purpose language Haskell
+brew "ghcup"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
+# Small git utilities
+brew "git-extras"
+# Quickly rewrite git repository history
+brew "git-filter-repo"
+# Audit git repos for secrets
+brew "gitleaks"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Agent multiplexer that lives in your terminal
+brew "herdr"
+# Improved top (interactive process viewer)
+brew "htop"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+# Git-compatible distributed version control system
+brew "jj"
+# Convert JPG images to ASCII
+brew "jp2a"
+# Modern load testing tool, using Go and JavaScript
+brew "k6"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Key-value storage library with ordered mapping
+brew "leveldb"
+# Subtitle renderer for the ASS/SSA subtitle format
+brew "libass"
+# Convert pixel information into colored ASCII art
+brew "libcaca"
+# Postgres C API library
+brew "libpq"
+# Framework for layout and rendering of i18n text
+brew "pango"
+# Find what models run on your hardware
+brew "llmfit"
+# Mac App Store command-line interface
+brew "mas"
+# Polyglot runtime manager (asdf rust clone)
+brew "mise"
+# Deep clean and optimize your Mac
+brew "mole"
+# Remote terminal application
+brew "mosh"
+# Multiple Repository management tool
+brew "mr"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# AI coding agent, built for the terminal
+brew "opencode"
+# Development kit for the Java programming language
+brew "openjdk"
+# C library to read whole-slide images (a.k.a. virtual slides)
+brew "openslide"
+# Generic machine emulator and virtualizer
+brew "qemu"
+# Perl-powered file rename script with many helpful built-ins
+brew "rename"
+# Generate ASCII art with terminal, shell, and OS info
+brew "screenfetch"
+# Command-line tool for Stripe
+brew "stripe-cli"
+# ISO/Edinburgh-style Prolog interpreter
+brew "swi-prolog"
+# OCR (Optical Character Recognition) engine
+brew "tesseract"
+# Simplified and community-driven man pages
+brew "tldr"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# One CLI to format the code tree
+brew "treefmt"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# Image processing library
+brew "vips"
+# Internet file retriever
+brew "wget"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
+# Pluggable terminal workspace, with terminal multiplexer as the base feature
+brew "zellij"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# LLM inference server optimized for Apple Silicon
+brew "jundot/omlx/omlx", args: ["with-custom-kernel"]
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
+# Command-line interface for 1Password
+cask "1password-cli"
+# Stand alone ad blocker
+cask "adguard"
+# Application launcher and productivity software
+cask "alfred"
+# Coding agent and development environment
+cask "amp-app"
+# Transfer files from and to an Android smartphone
+cask "android-file-transfer"
+# Android SDK component
+cask "android-platform-tools"
+# Memory training application
+cask "anki"
+# Allows connection to a computer remotely
+cask "anydesk"
+# Application uninstaller
+cask "appcleaner"
+# Tool to flash OS images to SD cards & USB drives
+cask "balenaetcher"
+# Transforms audio input
+cask "boom"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
+# Menu bar usage monitor for Codex and Claude
+cask "steipete/tap/codexbar", trusted: true
+# Voice and text chat software
+cask "discord"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
+# Web browser
+cask "firefox"
+cask "font-fira-code"
+cask "font-hack-nerd-font"
+cask "font-jetbrains-mono"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-powerline-symbols"
+# GIT client
+cask "fork"
+# Web browser
+cask "google-chrome"
+# Tools to protect your emails and files
+cask "gpg-suite"
+# Extensible coding agent for the terminal
+cask "grok-build"
+# Desktop automation application
+cask "hammerspoon"
+# Free and open-source media player
+cask "iina"
+# Tool to optimise images to a smaller size
+cask "imageoptim"
+# iPhone management application
+cask "imazing"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Enables an integrated web browser in iTerm2
+cask "itermbrowserplugin"
+# Open-source keystroke visualiser
+cask "keycastr"
+# ZSA keyboard firmware flasher
+cask "keymapp"
+# Open-source cross-platform alternative to AirDrop
+cask "localsend"
+# Open-source firewall to block unknown outgoing connections
+cask "lulu"
+# Clipboard manager
+cask "maccy"
+# Intercept, modify, replay, save HTTP/S traffic
+cask "mitmproxy"
+# Free and open-source RSS reader
+cask "netnewswire"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Self-hosted daemon for AI coding agents
+cask "paseo"
+# PDF reader, editor and annotator
+cask "pdf-expert"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Snip or pin screenshots
+cask "snipaste"
+# Text editor for code, markup and prose
+cask "sublime-text"
+# Real time file synchronisation software
+cask "syncthing-app"
+# Mesh VPN based on WireGuard
+cask "tailscale-app"
+# Messaging app with a focus on speed and security
+cask "telegram"
+# Unpacks archive files
+cask "the-unarchiver"
+# NetEase UU remote desktop access and control tool
+cask "uuremote"
+# Open-source code editor
+cask "visual-studio-code"
+# Music player for high resolution (Hi-Res) music through the external sources
+cask "vox"
+# Video communication and virtual meeting platform
+cask "zoom"
+mas "Actions", id: 1586435171
+mas "Amphetamine", id: 937984704
+mas "Blackmagic Disk Speed Test", id: 425264550
+mas "Bob", id: 1630034110
+mas "CodePiper Lite", id: 1669959741
+mas "Core Shell", id: 1354319581
+mas "Core Tunnel", id: 1354318707
+mas "Cubox", id: 1113361350
+mas "Developer", id: 640199958
+mas "Dictionaries", id: 1380563956
+mas "EuDic", id: 434350458
+mas "Fileyan", id: 1620696241
+mas "Hand Mirror", id: 1502839586
+mas "HazeOver", id: 430798174
+mas "Kana Origin", id: 1439222882
+mas "Keynote", id: 409183694
+mas "Klib", id: 1196268448
+mas "MindNode Classic", id: 1289197285
+mas "MusicHarbor", id: 1440405750
+mas "Notability", id: 360593530
+mas "Numbers", id: 409203825
+mas "OneKey", id: 1609559473
+mas "OpenCat", id: 6445999201
+mas "Oyomi", id: 1474251984
+mas "Pages", id: 409201541
+mas "Prompt", id: 1594420480
+mas "Radiccio", id: 6751426653
+mas "Screen Recorder by Omi", id: 1592987853
+mas "Shazam", id: 897118787
+mas "Spark Desktop", id: 6445813049
+mas "TestFlight", id: 899247664
+mas "Tomito", id: 1526042938
+mas "Userscripts", id: 1463298887
+mas "WebDAV Lite", id: 6779282964

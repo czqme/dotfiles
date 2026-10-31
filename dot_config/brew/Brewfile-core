@@ -1,0 +1,12 @@
+# Minimum tools for rebuilding and operating this Mac.
+# GUI apps remain in Brewfile; language runtimes remain in mise/config.toml.
+brew "chezmoi"
+brew "git"
+brew "gh"
+brew "mise"
+brew "neovim"
+brew "ripgrep"
+brew "fzf"
+brew "zoxide"
+brew "jq"
+brew "zellij"

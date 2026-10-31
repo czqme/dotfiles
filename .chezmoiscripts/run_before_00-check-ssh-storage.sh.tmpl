@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -eu
+{{ if eq .chezmoi.os "darwin" -}}
+# Validate external state before any installation or replacement of ~/.ssh.
+ssh_store=/Volumes/Vault/mac-state/ssh
+agent_runtime="$HOME/.local/state/ssh-agent"
+if ! /sbin/mount | /usr/bin/grep -Fq ' on /Volumes/Vault ('; then
+  printf 'Mount Vault before applying the SSH configuration.\n' >&2
+  exit 1
+fi
+if [ ! -d "$ssh_store" ] || [ ! -f "$ssh_store/config" ]; then
+  printf 'Restore the SSH data to %s before applying chezmoi.\n' "$ssh_store" >&2
+  exit 1
+fi
+if [ ! -L "$ssh_store/agent" ] || [ "$(readlink "$ssh_store/agent")" != "$agent_runtime" ]; then
+  printf 'SSH agent link must point to %s; inspect it before restoring.\n' "$agent_runtime" >&2
+  exit 1
+fi
+if [ -L "$agent_runtime" ]; then
+  printf 'SSH agent runtime must be a local directory, not a symlink.\n' >&2
+  exit 1
+fi
+mkdir -p "$agent_runtime"
+chmod 700 "$agent_runtime"
+{{ end -}}

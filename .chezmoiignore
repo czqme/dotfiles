@@ -1,3 +1,9 @@
 .gitignore
 README.md
+AGENTS.md
 install.sh
+docs
+scripts
+{{ if ne .chezmoi.os "darwin" }}
+.ssh
+{{ end }}
